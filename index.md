@@ -1,4 +1,11 @@
 ---
-layout: home
+layout: default
 ---
+# Welcome to my site!
 This is my hand-crafted blog.
+
+## Recent Posts
+{% for post in site.posts %}
+  ### [{{ post.title }}]({{ post.url }})
+  *{{ post.date | date_to_string }}* — {{ post.tags | join: ", " }}
+{% endfor %}
