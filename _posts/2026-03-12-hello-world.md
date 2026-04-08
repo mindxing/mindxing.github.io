@@ -2,7 +2,7 @@
 layout: default
 title: "Testing My First Tags"
 date: 2026-03-12
-tags: [coding, jekyll, llm]
+tags: [coding, llms]
 ---
 # Hello World!
 
