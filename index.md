@@ -1,5 +1,6 @@
 ---
 layout: default
+nav: false
 ---
 # Welcome to my site!
 This is my hand-crafted blog v2.

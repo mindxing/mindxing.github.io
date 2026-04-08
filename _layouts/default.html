@@ -29,7 +29,10 @@
 
     <main id="content" class="main-content" role="main">
 
-      {% include nav.html %}
+      {% if page.nav != false %}
+        {% include nav.html %}
+      {% endif %}
+      
 
       {{ content }}
 
