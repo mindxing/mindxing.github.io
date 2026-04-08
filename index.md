@@ -2,8 +2,8 @@
 layout: default
 nav: false
 ---
-# Welcome to my site!
-This is my hand-crafted blog v2.
+# Vnoel
+Musings, thoughts, and (probably bad) ideas
 
 ## Recent Posts
 {% for post in site.posts %}
